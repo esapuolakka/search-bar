@@ -1,9 +1,9 @@
-import React from 'react'
-import './SearchResult.css'
+import React from 'react';
+import './SearchResult.css';
 
-export default function SearchResult({ result }) {
-
+export default function SearchResult({ result, handleClick }) {
   return (
-    <div className='search-result' onClick={(e) => alert(result.name)}>{result.name}</div>
-  )
+    <div className='search-result' onClick={() => handleClick(result)}>{result.name}</div>
+  );
 }
+

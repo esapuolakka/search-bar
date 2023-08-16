@@ -9,3 +9,10 @@
     max-height: 300px;
     overflow-y: scroll;
 }
+.result-item {
+    width: 100%;
+    padding: 10px 20px;
+}
+.result-item:hover {
+    background-color: #f4c6c6;
+}
